@@ -60,6 +60,7 @@ REST_FRAMEWORK = {
 }
 
 CORS_ALLOW_ALL_ORIGINS = True
+ALLOWED_HOSTS = "*"
 
 ROOT_URLCONF = 'hrms.urls'
 
